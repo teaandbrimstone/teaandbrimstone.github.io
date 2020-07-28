@@ -54,9 +54,11 @@ const ThirdPage = () => {
           <button className="cButton filled pop" onClick={() => scrollToRef(ref)}>
             <AiOutlineDownload /> Download
           </button>
-          <button className="cButton pop">
-            Repo
-      </button>
+          <a target="_blank" rel="noreferrer" href="https://github.com/teaandbrimstone/demo">
+            <button className="cButton pop">
+              Repo
+            </button>
+          </a>
         </div>
       </Layout>
       <div className="pageContent">
