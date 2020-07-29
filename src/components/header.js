@@ -34,11 +34,11 @@ const Header = () => {
         </Link>
         <span className="mlAuto" />
         <div className="desktopLinks">
-          <Link to="/lore">
-            <h2> Lore </h2>
-          </Link>
           <Link to="/downloads">
             <h2> Downloads </h2>
+          </Link>
+          <Link to="/wiki">
+            <h2> Wiki </h2>
           </Link>
           <Link to="/contribute">
             <h2> Contribute </h2>
@@ -61,6 +61,7 @@ const Header = () => {
             onClose={handleClose}
           >
             <MenuItem onClick={handleClose}> <Link to="/downloads"> Downloads </Link> </MenuItem>
+            <MenuItem onClick={handleClose}> <Link to="/wiki"> Wiki </Link> </MenuItem>
             <MenuItem onClick={handleClose}> <Link to="/contribute"> Contribute </Link> </MenuItem>
           </Menu>
         </div>

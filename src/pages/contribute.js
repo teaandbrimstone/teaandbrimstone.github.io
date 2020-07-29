@@ -1,12 +1,9 @@
 import React, { useRef } from "react"
 
-// import Layout from "../components/layout"
+import Layout2 from "../components/layout2"
 import SEO from "../components/seo"
-import Header from "../components/header"
 import Footer from "../components/footer"
 import Parallax2 from "../components/parallax2"
-import "../components/layout.scss"
-import "../styles/style.scss"
 
 import Tape from "../images/tape.svg"
 
@@ -17,22 +14,19 @@ const FourthPage = () => {
 
   return (
     <>
-      <div className="heroContainer black" >
-        <Header />
-        <div className="heroContent heroRow">
-          <SEO title="contribute" />
-          <div className="heroText">
-            <h3>Contribute </h3>
-            <p> Join the team officially, or just lend a helping hand. Anything is appreciated. </p>
-            <div className="btnGroup">
-              <button className="cButton pop" onClick={() => scrollToRef(ref)}>
-                Application
+      <Layout2>
+        <SEO title="contribute" />
+        <div className="heroText">
+          <h3>Contribute </h3>
+          <p> Join the team officially, or just lend a helping hand. Anything is appreciated. </p>
+          <div className="btnGroup">
+            <button className="cButton pop" onClick={() => scrollToRef(ref)}>
+              Application
             </button>
-            </div>
           </div>
-          <Parallax2 />
         </div>
-      </div>
+        <Parallax2 />
+      </Layout2>
       <div className="pageContent">
         <div className="row">
           <div className="card pop cardMed empty" >

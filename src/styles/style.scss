@@ -336,7 +336,7 @@ a {
   z-index: 1;
 
   p {
-    margin-bottom: .75rem;
+    margin-bottom: 0.75rem;
   }
 }
 
@@ -455,7 +455,8 @@ a {
 iframe {
   max-width: 600px;
   min-width: 250px;
-  height: 1200px;
+  min-height: 300px;
+  max-height: 1200px;
 }
 
 .btnGroup {
@@ -522,7 +523,7 @@ button {
 }
 
 .menuButton {
-  color: white!important;
+  color: white !important;
 }
 
 //Nav
@@ -684,5 +685,49 @@ button {
     svg {
       vertical-align: middle;
     }
+  }
+}
+
+.charmGrid {
+  margin: 2rem 2rem;
+  display: grid;
+  grid-gap: 0.5rem 0.5rem;
+  grid-template-columns: repeat(5, 1fr);
+
+  .card {
+    @extend .pop;
+    margin: 0;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+    background: none;
+    color: white;
+    border: dashed 1px white;
+  }
+}
+
+.charmBack {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+
+  .water {
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .fire {
+    position: absolute;
+    right: -50px;
+    bottom: 50px;
+    max-width: 100%;
+    height: auto;
   }
 }
