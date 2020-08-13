@@ -1,0 +1,37 @@
+.charmGridRoot{
+	border: thin solid white;
+	padding: 8px;
+
+	.charmGrid{
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		max-width: 280px;
+		min-width: 280px;
+		max-height: 224px;
+		overflow: scroll;
+
+		.charmRoot{
+			border-radius: 5px;
+			margin: 8px;
+			height: 40px;
+			width: 40px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+	}
+}
+.charm{
+	border: thin solid white;
+	color: white;
+	height: 40px;
+	width: 40px;
+	cursor: grab;
+}.dropped{
+	transition:{
+		property: top, left;
+		duration: .75s;
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"fire":[
+		{
+			"name":"Fireball",
+			"description":"A ball of fire",
+			"src":"./fire.png"
+		},
+                {
+                        "name":"Fireball",
+                        "description":"A ball of fire",
+                        "src":"./fire.png"
+                },
+                {
+                        "name":"Fireball",
+                        "description":"A ball of fire",
+                        "src":"./fire.png"
+                },
+                {
+                        "name":"Fireball",
+                        "description":"A ball of fire",
+                        "src":"./fire.png"
+                },
+                {
+                        "name":"Fireball",
+                        "description":"A ball of fire",
+                        "src":"./fire.png"
+                },
+                {
+                        "name":"Fireball",
+                        "description":"A ball of fire",
+                        "src":"./fire.png"
+                }
+	],
+	"water":[
+		{
+			"name":"Waterball",
+			"description":"A ball of water",
+			"src":"./water.png"
+		},
+		{
+                        "name":"Waterball",
+                        "description":"A ball of water",
+                        "src":"./water.png"
+                },
+		{
+                        "name":"Waterball",
+                        "description":"A ball of water",
+                        "src":"./water.png"
+                },
+		{
+                        "name":"Waterball",
+                        "description":"A ball of water",
+                        "src":"./water.png"
+                },
+		{
+                        "name":"Waterball",
+                        "description":"A ball of water",
+                        "src":"./water.png"
+                },
+		{
+                        "name":"Waterball",
+                        "description":"A ball of water",
+                        "src":"./water.png"
+                },
+		{
+                        "name":"Waterball",
+                        "description":"A ball of water",
+                        "src":"./water.png"
+                }
+	]
+}
