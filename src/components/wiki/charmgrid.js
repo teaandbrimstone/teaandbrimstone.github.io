@@ -48,6 +48,7 @@ class Charm extends React.Component{
 	}
 
 	transitionToNode(Node, transitionEnd){
+		this.element.style.position = "absolute";
 		this.element.classList.add("dropped");
 		this.element.style.left = Node.offsetLeft+"px";
 		this.element.style.top = Node.offsetTop+"px";
